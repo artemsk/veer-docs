@@ -19,11 +19,11 @@ Copy and rename main configuration file — *.env.example* to *.env*. Set databa
 <span class="kwd">DB_DATABASE=</span><span class="str">database name</span> 
 <span class="kwd">DB_USERNAME=</span><span class="str">database username</span> 
 <span class="kwd">DB_PASSWORD=</span><span class="str">database password</span> 
-</pre></code>
+</code></pre>
 
 Set permissions for these folders: **storage**, **vendor**.
 
-Cache configuration & routes:
+Cache configuration & routes:  
 ```
 $ php artisan config:cache  
 $ php artisan route:cache  
